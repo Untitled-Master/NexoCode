@@ -255,7 +255,7 @@ root.bind('<Control-p>', insert_print_statement)  # Bind Ctrl + P to insert a pr
 changes()
 
 # Replace with your Discord application's Client ID
-client_id = '1287482407460540486'  # Example: '1287482407460540486'
+client_id = ''
 RPC = Presence(client_id)
 RPC.connect()
 
